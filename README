@@ -1,0 +1,7 @@
+sbt:bug> run
+[info] compiling 1 Scala source to quicklens-scalac-bug/target/scala-2.13/classes ..
+[error] Error while emitting Hello.scala
+[error] value lang2
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed Apr 1, 2022, 4:13:28 PM
