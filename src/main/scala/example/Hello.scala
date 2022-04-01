@@ -4,12 +4,12 @@ import com.softwaremill.quicklens.{ModifyPimp, QuicklensEach}
 
 object Hello extends Greeting with App {
 
-  case class Hello(field: String)
+  case class Foo(field: String)
 
   def doit = {
     val lang2 = "hey"
 
-    Seq(Hello("asdf"))
+    Seq(Foo("asdf"))
       .modify(_.eachWhere(_.field != lang2).field)
       .setTo(lang2)
   }
